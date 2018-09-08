@@ -87,64 +87,7 @@ type TimeResponse struct {
 }
 
 // AssetPairsResponse includes asset pair informations
-type AssetPairsResponse struct {
-	BCHEUR   AssetPairInfo
-	BCHUSD   AssetPairInfo
-	BCHXBT   AssetPairInfo
-	DASHEUR  AssetPairInfo
-	DASHUSD  AssetPairInfo
-	DASHXBT  AssetPairInfo
-	EOSETH   AssetPairInfo
-	EOSEUR   AssetPairInfo
-	EOSUSD   AssetPairInfo
-	EOSXBT   AssetPairInfo
-	GNOETH   AssetPairInfo
-	GNOEUR   AssetPairInfo
-	GNOUSD   AssetPairInfo
-	GNOXBT   AssetPairInfo
-	USDTZUSD AssetPairInfo
-	XETCXETH AssetPairInfo
-	XETCXXBT AssetPairInfo
-	XETCZEUR AssetPairInfo
-	XETCXUSD AssetPairInfo
-	XETHXXBT AssetPairInfo
-	XETHZCAD AssetPairInfo
-	XETHZEUR AssetPairInfo
-	XETHZGBP AssetPairInfo
-	XETHZJPY AssetPairInfo
-	XETHZUSD AssetPairInfo
-	XICNXETH AssetPairInfo
-	XICNXXBT AssetPairInfo
-	XLTCXXBT AssetPairInfo
-	XLTCZEUR AssetPairInfo
-	XLTCZUSD AssetPairInfo
-	XMLNXETH AssetPairInfo
-	XMLNXXBT AssetPairInfo
-	XREPXETH AssetPairInfo
-	XREPXXBT AssetPairInfo
-	XREPZEUR AssetPairInfo
-	XREPZUSD AssetPairInfo
-	XXBTZCAD AssetPairInfo
-	XXBTZEUR AssetPairInfo
-	XXBTZGBP AssetPairInfo
-	XXBTZJPY AssetPairInfo
-	XXBTZUSD AssetPairInfo
-	XXDGXXBT AssetPairInfo
-	XXLMXXBT AssetPairInfo
-	XXLMZEUR AssetPairInfo
-	XXLMZUSD AssetPairInfo
-	XXMRXXBT AssetPairInfo
-	XXMRZEUR AssetPairInfo
-	XXMRZUSD AssetPairInfo
-	XXRPXXBT AssetPairInfo
-	XXRPZCAD AssetPairInfo
-	XXRPZEUR AssetPairInfo
-	XXRPZJPY AssetPairInfo
-	XXRPZUSD AssetPairInfo
-	XZECXXBT AssetPairInfo
-	XZECZEUR AssetPairInfo
-	XZECZUSD AssetPairInfo
-}
+type AssetPairsResponse map[string]AssetPairInfo
 
 // AssetPairInfo represents asset pair information
 type AssetPairInfo struct {
